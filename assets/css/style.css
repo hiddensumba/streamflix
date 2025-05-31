@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+}
+header {
+  background: #222;
+  padding: 1rem;
+  text-align: center;
+}
+#searchInput {
+  padding: 0.5rem;
+  width: 60%;
+  margin-top: 1rem;
+}
+.movie-card {
+  background: #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  text-align: center;
+}
+.movie-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.movie-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background: #f00;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
